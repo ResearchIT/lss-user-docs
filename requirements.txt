@@ -1,0 +1,3 @@
+# File: docs/requirements.txt
+mkdocs
+Pygments

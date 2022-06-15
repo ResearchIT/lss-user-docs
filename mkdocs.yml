@@ -1,0 +1,34 @@
+site_name: LSS User Documentation
+site_url: https://researchit.las.iastate.edu/guides/lss/
+site_description: Documentation for LSS.
+site_author: ResearchIT
+
+repo_url: https://github.com/researchit/lss-user-docs
+edit_uri: ""
+extra_css:
+    - css/isu.css
+    - css/codehilite.css
+markdown_extensions:
+    - toc:
+        permalink: true
+    - codehilite:
+        guess_lang: false
+theme:
+    name: readthedocs
+    locale: en
+    analytics: {gtag: ''}
+    highlightjs: false
+    custom_dir: custom_theme
+nav:
+    - Large Scale Storage (LSS): index.md
+    - Request Space: request_space.md
+    - Manage Access: manage_access.md
+    - Usage Information: usage.md
+    - Snapshots: snapshots.md
+    - Transfer Methods:
+        - Mount Folders: mount_folders.md
+        - rsync: rsync.md
+        - robocopy: robocopy.md
+    - Troubleshooting:
+        - Common Issues: troubleshooting/common_issues.md
+        - Reporting Issues: troubleshooting/reporting_issues.md
