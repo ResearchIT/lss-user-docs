@@ -120,7 +120,7 @@ Instead of:
 
 The other steps for your operating system remain the same as listed above.
 
-Regarding Permissions:
+Regarding Permissions
 ----------------------
 
 Permissions to the shared folders are controlled on the server back-end and may not display correctly on your client. This has no impact no the enforcement of permissions. Your files are only accessible by people in the group that you have authorized.
