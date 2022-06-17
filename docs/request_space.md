@@ -21,7 +21,7 @@ By default, the _Principal Investigator NetId_ field should be autofilled with
 
 ![request_page](img/request_page_1.png)
 
-Please note that the _Authorized Net-IDs_ field refers only to individuals allowed to manage the billing for this share, within this portal. To manage users who have access to files within the share, please see the [Manage Access](manage_access.md) article. 
+Please note that the _Authorized Net-IDs_ field is only the list of users given access when the share is first created. To manage users later, please see the [Manage Access](manage_access.md) article. 
 
 ![authorize_ids](img/request_authorize_ids.png)
 
