@@ -25,6 +25,9 @@ echo "---> Installing application source"
 mkdir -p ./guides/lss
 cp -af /tmp/src/site/* ./guides/lss/
 
+mkdir -p httpd-cfg
+cp -af /tmp/src/httpd-cfg/* ./httpd-cfg/
+
 
 # Fix source directory permissions
 fix-permissions ./
