@@ -17,8 +17,7 @@ This means you will need to substitute your PI's Net-ID for _jones_ and your Net
 
 If you have problems, please contact your local departmental IT support technician, or email [lss-help@iastate.edu](mailto:lss-help@iastate.edu?subject=LSS%20Mapping%20help)
 
-Mounting from Mac OS X
-----------------------
+## Mounting from Mac OS X
 
 *   From the Finder application menu item "Go" select "Connect to Server"
 *   Enter smb://iastate/lss/research/_jones-lab_ as shown here:
@@ -38,8 +37,7 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 You only need to do this once on your computer.
 
-Mounting from Windows
----------------------
+## Mounting from Windows
 
 ### As a Folder (use this if you're unsure)
 
@@ -63,15 +61,13 @@ If a login prompt is received:
     ![Mounting LSS as a Network Drive Part 2](img/map_network_drive_3_0.png)
 1. Click button labeled 'Finish'.
 
-Mounting from Pronto
---------------------
+## Mounting from Pronto
 
-LSS folders are mounted on the pronto data transfer node (prontodtn.las.iastate.edu) and on the compute nodes at /lss/research/. E.g. if the netid of your PI is _jones_, the path is /lss/research/jones-lab
+LSS folders are mounted on the pronto data transfer node (prontodtn.las.iastate.edu) E.g. if the netid of your PI is _jones_, the path is /lss/research/jones-lab
 
-Do not run jobs against data in the /lss directory. Instead, copy files from your /lss directory to your /work directory, and then run jobs against the data in your /work directory.
+To use your LSS data for pronto jobs, you should use the data transfer node to copy files from your /lss directory to your /work directory, and then run jobs against the data in your /work directory. 
 
-Mounting from Condo cluster
----------------------------
+## Mounting from Condo cluster
 
 *   Login to the condo cluster head node using the [regular procedure](https://www.hpc.iastate.edu/guides/condo-2017/access-and-login).
 *   Use ssh to access condodtn from the Condo cluster head node.
@@ -84,8 +80,7 @@ ssh condodtn
 cd /lss/research/netid-lab
 ```
 
-Mounting From Linux GUI
------------------------
+## Mounting From Linux GUI
 
 1.  Choose "Windows Share" from the Type dropdown.
 2.  Connection Information:
@@ -103,8 +98,7 @@ Mounting From Linux GUI
     *   **Username:** _you_
     *   **Password:** _your-password_
 
-Mounting over VPN or from a personally owned device
-----------------------------------------------------
+## Mounting over VPN or from a personally owned device
 
 The default address will not work over [VPN](https://researchit.las.iastate.edu/vpn-isu), or from personally owned or non-domain joined devices.  If you are mounting LSS in one of these situations, use this address:
 
@@ -120,7 +114,6 @@ Instead of:
 
 The other steps for your operating system remain the same as listed above.
 
-Regarding Permissions
-----------------------
+## Regarding Permissions
 
 Permissions to the shared folders are controlled on the server back-end and may not display correctly on your client. This has no impact no the enforcement of permissions. Your files are only accessible by people in the group that you have authorized.
