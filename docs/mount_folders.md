@@ -100,7 +100,7 @@ cd /lss/research/netid-lab
 
 ## Mounting over VPN or from a personally owned device
 
-The default address will not work over [VPN](https://researchit.las.iastate.edu/vpn-isu), or from personally owned or non-domain joined devices.  If you are mounting LSS in one of these situations, use this address:
+The default address will not work over [VPN](https://iastate.service-now.com/it?id=kb_article&sysparm_article=KB0011105), or from personally owned or non-domain joined devices.  If you are mounting LSS in one of these situations, use this address:
 
 **MacOS** `smb://las-dfs-01.las.iastate.edu/lss/research/jones-lab`
 
