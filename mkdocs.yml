@@ -20,11 +20,13 @@ theme:
     highlightjs: false
     custom_dir: custom_theme
 nav:
-    - Large Scale Storage (LSS): index.md
-    - Request Space: request_space.md
-    - Manage Access: manage_access.md
-    - Usage Information: usage.md
-    - Snapshots: snapshots.md
+    - ResearchIT Home Page: https://researchit.las.iastate.edu/
+    - Large Scale Storage (LSS):
+        - Large Scale Storage (LSS): index.md
+        - Request Space: request_space.md
+        - Manage Access: manage_access.md
+        - Usage Information: usage.md
+        - Snapshots: snapshots.md
     - Transfer Methods:
         - Mount Folders: mount_folders.md
         - rsync: rsync.md
