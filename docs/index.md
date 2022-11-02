@@ -4,9 +4,9 @@
 
 ### Overview
 
-Large Scale Storage (LSS) is a research file storage service for faculty and staff. LSS is a software defined storage solution, and contains approximately **2 petabytes of usable storage**, with the ability to continue to grow.
+Large Scale Storage (LSS) is a research file storage service for faculty and staff. LSS is a software defined storage solution, and contains approximately **3 petabytes of usable storage**, with the ability to continue to grow.
 
-LSS  has been designed to provide an extremely low cost, reliable solution for storing large quantities of research data.  The primary user audience for this system is research labs who need to store terabytes of data for long periods of time.  LSS is useful for backups, archiving, and storing large files (e.g., videos, sequencing data, images, etc.) The system is not meant for holding data related to administrative business, supporting critical business processes, or providing backing storage for web applications or virtual machines.  Support for the service is available Mon-Fri during normal working hours by opening a ticket with [lss-help@iastate.edu](mailto:lss-help@iastate.edu).
+LSS has been designed to provide an extremely low cost, reliable solution for storing large quantities of research data.  The primary user audience for this system is research labs who need to store terabytes of data for long periods of time.  LSS is useful for backups, archiving, and storing large files (e.g., videos, sequencing data, images, etc.) The system is not meant for holding data related to administrative business, supporting critical business processes, or providing backing storage for web applications or virtual machines.  Support for the service is available Mon-Fri during normal working hours by opening a ticket with [lss-help@iastate.edu](mailto:lss-help@iastate.edu).
 
 LSS storage costs just **$40 per terabyte per year**, and can be paid for by individual researchers or groups, or can be subsidized by a college or department.  Please visit [https://lss.apps.it.iastate.edu](https://lss.apps.it.iastate.edu)/ to request space. Instructions on how to use the site are available [here](request_space.md).
 
