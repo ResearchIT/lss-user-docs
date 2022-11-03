@@ -65,6 +65,9 @@ If a login prompt is received:
 
 LSS folders are mounted on the pronto data transfer node (prontodtn.las.iastate.edu) E.g. if the netid of your PI is _jones_, the path is /lss/research/jones-lab
 
+!!! note
+    Prontodtn is currently having connection troubles with LSS. Until we work out a solution, please use `biocrunch.las.iastate.edu` for data transfers to and from LSS.
+
 To use your LSS data for pronto jobs, you should use the data transfer node to copy files from your /lss directory to your /work directory, and then run jobs against the data in your /work directory. 
 
 ## Mounting from Nova cluster
