@@ -5,7 +5,7 @@ We will discuss mounting the LSS systems from the following system types:
 *   Mac OS X
 *   Windows
 *   Research IT and/or Biology IT Linux Servers
-*   Condo Research Cluster
+*   Nova Research Cluster
 *   Linux GUI Desktop (Gnome)
 
 The following examples will use the values:
@@ -67,16 +67,16 @@ LSS folders are mounted on the pronto data transfer node (prontodtn.las.iastate.
 
 To use your LSS data for pronto jobs, you should use the data transfer node to copy files from your /lss directory to your /work directory, and then run jobs against the data in your /work directory. 
 
-## Mounting from Condo cluster
+## Mounting from Nova cluster
 
-*   Login to the condo cluster head node using the [regular procedure](https://www.hpc.iastate.edu/guides/condo-2017/access-and-login).
-*   Use ssh to access condodtn from the Condo cluster head node.
+*   Login to the nova cluster head node using the [regular procedure](https://www.hpc.iastate.edu/guides/nova/access-and-login).
+*   Use ssh to access novadtn from the Nova cluster head node.
 *   Navigate to your research folder, which is under /lss/research.
     *   Remember that the folder is named for your PI's Net-ID (_netid-lab)_
     *   You should always copy files from this location into /work/LAS as needed to run your jobs. Results should be copied back to your research folder when finished.
 
 ```bash
-ssh condodtn
+ssh novadtn
 cd /lss/research/netid-lab
 ```
 
