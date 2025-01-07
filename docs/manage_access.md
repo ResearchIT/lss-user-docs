@@ -19,8 +19,6 @@ The access management page looks like this:
 
 Enter the net ID of the user you want to add and click 'Find User'. A confirmation page will be shown. Click 'Yes, I really want to add this user to my lab list'.
 
-[Pronto](https://researchit.las.iastate.edu/guides/pronto/) users please note that adding a someone to your LSS list will also grant them access to your Pronto /work directory.
-
 ### Remove a user
 
 Check the box next to the user's name, and click 'Remove selected members'.
