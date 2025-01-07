@@ -16,5 +16,5 @@ The table below outlines who to contact regarding issues:
 | **Having a problem with...** | **Then contact...** |
 | ---------------------------- | ------------------- |
 | Local Computer or Printer Problems | [local / departmental support](https://www.it.iastate.edu/help/unit) |
-| Reesarch IT or HPC/Nova Questions | [researchit@iastate.edu](mailto:researchit@iastate.edu) |
+| Research IT or HPC/Nova Questions | [researchit@iastate.edu](mailto:researchit@iastate.edu) |
 | Large Scale Storage (LSS) Issues | [lss-help@iastate.edu](mailto:lss-help@iastate.edu) |
