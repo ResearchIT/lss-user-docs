@@ -64,11 +64,11 @@ If a login prompt is received:
 
 ## Mounting from Nova cluster
 
-*   Login to the nova cluster head node using the [regular procedure](https://www.hpc.iastate.edu/guides/nova/access-and-login).
-*   Use ssh to access novadtn from the Nova cluster head node.
+*   Use ssh to access novadtn. If you're not already logged in to nova, you can log into the dtn directly by ssh-ing to novadtn.its.iastate.edu.
 *   Navigate to your research folder, which is under /lss/research.
     *   Remember that the folder is named for your PI's Net-ID (_netid-lab)_
-    *   You should always copy files from this location into /work/LAS as needed to run your jobs. Results should be copied back to your research folder when finished.
+    *   If you get a 'Permission denied' message make sure you have a kerberos ticket with 'klist' and use 'kinit' if you do not.
+    *   You should always copy files from this location into your lab's work directory as needed to run your jobs. Results should be copied back to your research folder when finished.
 
 ```bash
 ssh novadtn
